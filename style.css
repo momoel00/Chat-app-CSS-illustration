@@ -1,0 +1,315 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+}
+
+/* Mohammed Elfraiji */
+
+section{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+.left_box{
+	position: absolute;
+	background-image: linear-gradient(to top, hsl(264, 100%, 61%) -12%, hsl(293, 100%, 63%) 155%); /*light violet & light magenta*/
+	width: 560px;
+	height: 630px;
+	border-radius: 0 0 50% 50%;
+	left: -120px;
+}
+
+.mobile{
+	position: absolute;
+	width: 260px;
+	height: 510px;
+	top: 11%;
+	left: 24.5%;
+	border-radius: 35px;
+	background-color: hsl(0, 0%, 100%);
+	box-shadow: 5px 40px 85px #cfcfcf;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.mobile .mobile_bg{
+	width: 92%;
+	height: 95.5%;
+	background-color: hsl(270, 20%, 96%);
+	border-radius: 25px;
+}
+
+.mobile .mobile_bg .top_box{
+	width: 100%;
+	height: 74px;
+	border-radius: 25px 25px 5px 5px;
+ 	background-image: linear-gradient(to right, hsl(264, 100%, 61%) -10%, hsl(293, 100%, 63%) 115%); /*light violet & light magenta*/
+}
+
+.mobile .mobile_bg .top_box .speaker{
+	width: 54%;
+	height: 20px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 1px 1px 14px 14px;
+	margin: 0 auto;
+	position: relative;
+	top: -1px;
+}
+
+.mobile .mobile_bg .top_box .arrow{
+	border: 1px solid #fff;
+	border-width: 0 1.8px 1.8px 0;
+	padding: 3px;
+	transform: rotate(135deg);
+	display: inline-block;
+	position: absolute;
+	top: 11%;
+	left: 9%;
+}
+
+.mobile .mobile_bg .top_box img{
+	border-radius: 50%;
+	border: 2px solid white;
+	position: absolute;
+	left: 13%;
+	top: 9%;
+	cursor: pointer;
+}
+
+.mobile .mobile_bg .top_box .info{
+	color: white;
+	position: relative;
+	left: 24%;
+	top: 18%;
+	padding: 0 0 3px 0;
+}
+
+.mobile .mobile_bg .top_box .info h5{
+	font-weight: 300;
+	font-size: 12.5px;
+}
+
+.mobile .mobile_bg .top_box .info p{
+	font-size: 8.5px;
+	color: hsl(276, 100%, 81%);
+}
+
+.mobile .mobile_bg .top_box .fa-ellipsis-v{
+	position: absolute;
+	right: 10%;
+	top: 10.5%;
+	color: #fff;
+	cursor: pointer;
+}
+
+.mobile .mobile_bg .bottom_box .left_msg{
+	width: 57%;
+	height: auto;
+	background-color: #ede5f4;
+	color: hsl(276, 55%, 52%);
+	margin-top: 9px;
+	margin-left: 7px;
+	border-radius: 13px 13px 13px 2px;
+}
+
+.mobile .mobile_bg .bottom_box p{
+	font-size: 9px;
+	padding: 7px;
+}
+
+.mobile .mobile_bg .bottom_box .dog::after{
+	content: "";
+  	clear: both;
+  	display: table;
+}
+
+.mobile .mobile_bg .bottom_box .dog .column{
+  	float: left;
+  	width: 22%;
+  	padding: 1px; 
+  	margin-top: 7px;
+  	position: relative;
+  	left: 85px;
+}
+
+.mobile .mobile_bg .bottom_box .dog .column img{
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.mobile .mobile_bg .bottom_box .right_msg_one{
+	width: 58%;
+	height: auto;
+	background-color: #fff;
+	color: hsl(271, 15%, 43%);
+	margin-top: 9px;
+	border-radius: 13px 13px 1px 13px;
+	position: relative;
+	left: 94px;
+	box-shadow: 5px 40px 100px #cfcfcf;
+}
+
+.mobile .mobile_bg .bottom_box .right_msg_two{
+	width: 36%;
+	height: auto;
+	background-color: #fff;
+	color: hsl(271, 15%, 43%);
+	margin-top: 9px;
+	border-radius: 13px 13px 1px 13px;
+	position: relative;
+	left: 144px;
+	box-shadow: 5px 40px 100px #cfcfcf;
+}
+
+.mobile .mobile_bg .bottom_box .radio{
+ 	width: 165px;
+ 	height: 32px;
+ 	margin-top: 9px;
+ 	margin-left: 7px;
+ 	border-radius: 10px 10px 10px 5px;
+  	background-image: linear-gradient(270deg , hsl(264, 100%, 63%) -15%, hsl(293, 100%, 60%) 136%);
+}
+
+.mobile .mobile_bg .bottom_box .radio .radio_containter{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	color: white;
+	user-select: none;
+}
+
+.mobile .mobile_bg .bottom_box .radio .radio_containter .walk{
+	position: relative;
+	left: 35px;
+	top: 3px;
+	font-size: 8px;
+	font-weight: 300;
+	color: hsl(276, 100%, 81%);
+	font-weight: 700;
+}
+
+.mobile .mobile_bg .bottom_box .radio .radio_containter .price_first{
+	margin-left: 65px;
+	position: relative;
+	top: 5px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.mobile .mobile_bg .bottom_box .radio .radio_containter .price_second{
+	margin-left: 80px;
+	position: relative;
+	top: 5px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.mobile .mobile_bg .bottom_box .radio .radio_containter input{
+	display: none;
+}
+
+.mobile .mobile_bg .bottom_box .radio .radio_containter .circle{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	border-radius: 50%;
+	border: 1px solid hsl(289, 100%, 72%);
+}
+
+.mobile .mobile_bg .bottom_box .radio .radio_containter input:checked + .circle:after{
+	content: "";
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: hsl(289, 100%, 72%);
+	border: 1px solid #DA82ED;
+}
+
+.mobile .mobile_bg .bottom_box .search{
+	width: 94%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.mobile .mobile_bg .bottom_box .search input{
+	width: 100%;
+	height: 32px;
+	outline: none;
+	border: 1px solid white;
+	text-indent: 16px;
+	border-radius: 15px;
+	margin-top: 9px;
+	font-size: 10px
+}
+
+.mobile .mobile_bg .bottom_box .search input::placeholder{
+	color: hsl(206, 6%, 79%);
+}
+
+.mobile .mobile_bg .bottom_box .search .done{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #3e2753;
+	position: absolute;
+	right: 23px;
+	bottom:  25px;
+	outline: none;
+	border: 0;
+	cursor: pointer;
+}
+
+.mobile .mobile_bg .bottom_box .search .done .arrow_last{
+	border: 2px solid #fff;
+	display: inline-block;
+	border-width: 0 1.8px 1.8px 0;
+	padding: 3px;
+	transform: rotate(315deg);
+	position: relative;
+	top: 2px;
+	left: 7px;
+	display: inline-block;
+	z-index: 333;
+}
+
+.main_text{
+	position: absolute;
+	top: 35%;
+	right: 15.6%;
+	width: 29%;
+	height: auto;
+}
+
+.main_text h1{
+	font-size: 40px;
+	color: hsl(271, 36%, 24%);
+	font-weight: 500;
+	padding: 0 0 20px 0;
+}
+
+.main_text p{
+	color: hsl(270, 7%, 64%);
+	line-height: 25px;
+}
+
+.right_box{
+	position: absolute;
+	right: 0;
+	top: 16.7%;
+	width: 310px;
+	height: 600px;
+	background-color: hsl(264, 100%, 61%);
+	border-radius: 125% 35% 0 0/60% 4% 0 0; 
+	opacity: .050;
+}
